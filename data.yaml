@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ../test/images
+
+nc: 3
+names: ['airpods', 'mouse', 'wallet']
+
+roboflow:
+  workspace: s-workspace-zldaf
+  project: dateset-afjmw
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/s-workspace-zldaf/dateset-afjmw/3
